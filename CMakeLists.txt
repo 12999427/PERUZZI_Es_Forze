@@ -3,4 +3,6 @@ project(PERUZZI_Es_Forze)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(PERUZZI_Es_Forze main.cpp)
+add_executable(PERUZZI_Es_Forze main.cpp
+        Forza.cpp
+        Forza.h)
